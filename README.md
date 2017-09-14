@@ -12,11 +12,6 @@ Web上で動く対話式アプリケーションで、プログラミング教�
 
 ## 動かし方
 
-### import.txt準備
-
-回答文生成用ファイル[import.txt](/library/import.txt)を作成します。
-同フォルダにある[import.txt.example](/library/import.txt.example)をコピーし、import.txtという名前で同ディレクトリに保存してください。
-
 ### 起動
 
 ```console
@@ -26,7 +21,7 @@ $ python manage.py runserver 0.0.0.0:80
 ```
 ### ブラウザからアクセス
 
-Webブラウザを起動し、http://localhost にアクセス
+Webブラウザを起動し、http://192.168.99.100/ にアクセス
 
 ### 終了
 
